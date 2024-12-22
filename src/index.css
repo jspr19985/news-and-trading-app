@@ -1,10 +1,33 @@
+:root {
+  --ash-gray: #aec3b0;
+  --dark-slate-gray: #183A37;
+  --gunmetal: #293241;
+  --black: #040404;
+  --rich-black: #01161e;
+  --midnight-purple: #0D0221;
+  --federal-blue: #0F084B;
+  --marian-blue: #26408B;  
+  --yinmn-blue: #3d5a80;  
+  --dark-cyan: #119da4;
+  --cerulean: #0c7489;
+  --midnight-green: #13505b;  
+  --petrol-green: #124559;
+  --air-force-blue: #598392;
+  --powder-blue: #98c1d9; 
+  --light-blue: #A6CFD5;
+  --mint-green: #C2E7D9; 
+  --light-cyan: #e0fbfc;    
+  --dark-purple: #432534;
+  --mahogany: #C44900;  
+  --burnt-sienna: #ee6c4d;
+  --wheat: #EFD6AC;
+  --beige: #eff6e0;
+  --timberwolf: #d7d9ce;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Raleway", serif;
 }
 
 code {
