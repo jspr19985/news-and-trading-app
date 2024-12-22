@@ -1,0 +1,10 @@
+.newsFeedContainer {
+    border: thin solid var(--dark-cyan);
+    border-radius: 5px;
+    padding: 12px;
+    color: var(--beige);
+    width: 300px;
+    margin: 16px;
+    height: 500px;
+    overflow-y: scroll;
+}

@@ -1,4 +1,6 @@
 import './App.css';
+import Chart from "./Chart";
+import NewsFeed from "./NewsFeed";
 
 function App() {
   return (
@@ -8,6 +10,10 @@ function App() {
           News and Trading App
         </p>
       </header>
+      <div className="pageContainer">
+        <Chart />
+        <NewsFeed />
+      </div>
     </div>
   );
 }
