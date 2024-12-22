@@ -1,0 +1,6 @@
+.chartOuter {
+    width: 75%;
+    border: thin solid var(--cerulean);
+    border-radius: 5px;
+    margin: 16px;
+}

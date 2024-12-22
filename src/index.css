@@ -28,6 +28,7 @@
 body {
   margin: 0;
   font-family: "Raleway", serif;
+  background-color: var(--black);
 }
 
 code {

@@ -1,0 +1,628 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app as expected 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <header
+      class="App-header"
+    >
+      <p>
+        News and Trading App
+      </p>
+    </header>
+    <div
+      class="pageContainer"
+    >
+      <div
+        class="chartOuter"
+      >
+        <div
+          class="VictoryContainer"
+          style="height: 100%; width: 100%; user-select: none; pointer-events: none; position: relative;"
+        >
+          <svg
+            height="300"
+            role="img"
+            style="width: 100%; height: 100%; pointer-events: all;"
+            viewBox="0 0 450 300"
+            width="450"
+          >
+            <g
+              clip-path="url(#victory-clip-2)"
+              style="height: 100%; width: 100%; user-select: none;"
+            >
+              <defs>
+                <clippath
+                  id="victory-clip-2"
+                >
+                  <rect
+                    height="180"
+                    vector-effect="non-scaling-stroke"
+                    width="330"
+                    x="60"
+                    y="60"
+                  />
+                </clippath>
+              </defs>
+              <path
+                d="M60,240L87.5,219.37583736000573L115,204.5035657447833L142.5,179.0808615412254L170,149.0026454432362L197.5,124.85106961750706L225,112.7911788334034L252.50000000000003,108.3898748186514L280,99.3965965791222L307.5,89.91075363036077L335,86.51110378560868L362.5,75.7604976661966L390,60"
+                role="presentation"
+                shape-rendering="auto"
+                style="fill: transparent; stroke: #2D7FF9; pointer-events: stroke; opacity: 1; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;"
+              />
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: #757575; fill: transparent; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="60"
+                x2="390"
+                y1="240"
+                y2="240"
+              />
+              <g
+                role="presentation"
+              >
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="chart-axis-1-tickLabels-0"
+                  x="60"
+                  y="263.26"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: 'Inter', 'Helvetica Neue', 'Seravek', 'Helvetica', sans-serif; font-size: 12px; font-weight: 300; letter-spacing: normal; padding: 8px; fill: #292929; stroke: transparent;"
+                    text-anchor="middle"
+                    x="60"
+                  >
+                    2,010
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="chart-axis-1-tickLabels-1"
+                  x="115"
+                  y="263.26"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: 'Inter', 'Helvetica Neue', 'Seravek', 'Helvetica', sans-serif; font-size: 12px; font-weight: 300; letter-spacing: normal; padding: 8px; fill: #292929; stroke: transparent;"
+                    text-anchor="middle"
+                    x="115"
+                  >
+                    2,012
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="chart-axis-1-tickLabels-2"
+                  x="170"
+                  y="263.26"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: 'Inter', 'Helvetica Neue', 'Seravek', 'Helvetica', sans-serif; font-size: 12px; font-weight: 300; letter-spacing: normal; padding: 8px; fill: #292929; stroke: transparent;"
+                    text-anchor="middle"
+                    x="170"
+                  >
+                    2,014
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="chart-axis-1-tickLabels-3"
+                  x="225"
+                  y="263.26"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: 'Inter', 'Helvetica Neue', 'Seravek', 'Helvetica', sans-serif; font-size: 12px; font-weight: 300; letter-spacing: normal; padding: 8px; fill: #292929; stroke: transparent;"
+                    text-anchor="middle"
+                    x="225"
+                  >
+                    2,016
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="chart-axis-1-tickLabels-4"
+                  x="280"
+                  y="263.26"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: 'Inter', 'Helvetica Neue', 'Seravek', 'Helvetica', sans-serif; font-size: 12px; font-weight: 300; letter-spacing: normal; padding: 8px; fill: #292929; stroke: transparent;"
+                    text-anchor="middle"
+                    x="280"
+                  >
+                    2,018
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="chart-axis-1-tickLabels-5"
+                  x="335"
+                  y="263.26"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: 'Inter', 'Helvetica Neue', 'Seravek', 'Helvetica', sans-serif; font-size: 12px; font-weight: 300; letter-spacing: normal; padding: 8px; fill: #292929; stroke: transparent;"
+                    text-anchor="middle"
+                    x="335"
+                  >
+                    2,020
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="chart-axis-1-tickLabels-6"
+                  x="390"
+                  y="263.26"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: 'Inter', 'Helvetica Neue', 'Seravek', 'Helvetica', sans-serif; font-size: 12px; font-weight: 300; letter-spacing: normal; padding: 8px; fill: #292929; stroke: transparent;"
+                    text-anchor="middle"
+                    x="390"
+                  >
+                    2,022
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: #757575; fill: transparent; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="60"
+                x2="60"
+                y1="60"
+                y2="240"
+              />
+              <g
+                role="presentation"
+              >
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="chart-axis-2-tickLabels-0"
+                  x="47"
+                  y="243.7356601002671"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: 'Inter', 'Helvetica Neue', 'Seravek', 'Helvetica', sans-serif; font-size: 12px; font-weight: 300; letter-spacing: normal; padding: 8px; fill: #292929; stroke: transparent;"
+                    text-anchor="end"
+                    x="47"
+                  >
+                    4
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="chart-axis-2-tickLabels-1"
+                  x="47"
+                  y="211.95729176270794"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: 'Inter', 'Helvetica Neue', 'Seravek', 'Helvetica', sans-serif; font-size: 12px; font-weight: 300; letter-spacing: normal; padding: 8px; fill: #292929; stroke: transparent;"
+                    text-anchor="end"
+                    x="47"
+                  >
+                    6
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="chart-axis-2-tickLabels-2"
+                  x="47"
+                  y="180.1789234251488"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: 'Inter', 'Helvetica Neue', 'Seravek', 'Helvetica', sans-serif; font-size: 12px; font-weight: 300; letter-spacing: normal; padding: 8px; fill: #292929; stroke: transparent;"
+                    text-anchor="end"
+                    x="47"
+                  >
+                    8
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="chart-axis-2-tickLabels-3"
+                  x="47"
+                  y="148.40055508758965"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: 'Inter', 'Helvetica Neue', 'Seravek', 'Helvetica', sans-serif; font-size: 12px; font-weight: 300; letter-spacing: normal; padding: 8px; fill: #292929; stroke: transparent;"
+                    text-anchor="end"
+                    x="47"
+                  >
+                    10
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="chart-axis-2-tickLabels-4"
+                  x="47"
+                  y="116.62218675003051"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: 'Inter', 'Helvetica Neue', 'Seravek', 'Helvetica', sans-serif; font-size: 12px; font-weight: 300; letter-spacing: normal; padding: 8px; fill: #292929; stroke: transparent;"
+                    text-anchor="end"
+                    x="47"
+                  >
+                    12
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="chart-axis-2-tickLabels-5"
+                  x="47"
+                  y="84.84381841247135"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: 'Inter', 'Helvetica Neue', 'Seravek', 'Helvetica', sans-serif; font-size: 12px; font-weight: 300; letter-spacing: normal; padding: 8px; fill: #292929; stroke: transparent;"
+                    text-anchor="end"
+                    x="47"
+                  >
+                    14
+                  </tspan>
+                </text>
+              </g>
+            </g>
+          </svg>
+          <div
+            style="width: 100%; height: 100%; z-index: 99; position: absolute; top: 0px; left: 0px;"
+          >
+            <svg
+              height="300"
+              style="width: 100%; height: 100%; overflow: visible;"
+              viewBox="0 0 450 300"
+              width="450"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="newsFeedContainer"
+      >
+        NewsFeed goes here
+        <div
+          class="articleContainer"
+        >
+          News article: 0
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 1
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 2
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 3
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 4
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 5
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 6
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 7
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 8
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 9
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 10
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 11
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 12
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 13
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 14
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 15
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 16
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 17
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 18
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 19
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 20
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 21
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 22
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 23
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 24
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 25
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 26
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 27
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 28
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 29
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 30
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 31
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 32
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 33
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 34
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 35
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 36
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 37
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 38
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 39
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 40
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 41
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 42
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 43
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 44
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 45
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 46
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 47
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 48
+        </div>
+        <div
+          class="articleContainer"
+        >
+          News article: 49
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

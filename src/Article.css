@@ -1,0 +1,5 @@
+.articleContainer {
+    border: thin solid var(--yinmn-blue);
+    padding: 8px;
+    margin: 4px;
+}
