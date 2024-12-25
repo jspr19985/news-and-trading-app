@@ -3,12 +3,15 @@ import './App.css';
 import Chart from "./Chart";
 import NewsFeed from "./NewsFeed";
 import { getTestData } from "./utils/getTestData";
+import { getFinanceData } from "./utils/getFinanceData";
 
 function App() {
 
   useEffect(() => {
     const fetchData = async () => {
       const data = await getTestData();
+      const marketData = await getFinanceData();
+      console.log({ marketData })
 
       const { userId, id, title, completed } = data;
       console.log(id);
