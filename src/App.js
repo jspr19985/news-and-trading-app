@@ -1,8 +1,24 @@
+import React, { useEffect } from 'react';
 import './App.css';
 import Chart from "./Chart";
 import NewsFeed from "./NewsFeed";
+import { getTestData } from "./utils/getTestData";
 
 function App() {
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const data = await getTestData();
+
+      const { userId, id, title, completed } = data;
+      console.log(id);
+      console.log(userId);
+      console.log(title);
+      console.log(completed);
+    }
+    fetchData();
+  }, [])
+
   return (
     <div className="App">
       <header className="App-header">
