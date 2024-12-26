@@ -4,6 +4,7 @@ import Chart from "./Chart";
 import NewsFeed from "./NewsFeed";
 import { getTestData } from "./utils/getTestData";
 import { getFinanceData } from "./utils/getFinanceData";
+import { getNewsData } from "./utils/getNews";
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
       const data = await getTestData();
       const marketData = await getFinanceData();
       console.log({ marketData })
+      const news = await getNewsData();
+      console.log(news);
 
       const { userId, id, title, completed } = data;
       console.log(id);

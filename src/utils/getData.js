@@ -1,4 +1,4 @@
-export const getData = async ({ url, options }) => {
+export const getData = async ({ url, options = {} }) => {
     try {
         const response = await fetch(url, options);
         if (!response.ok) {
