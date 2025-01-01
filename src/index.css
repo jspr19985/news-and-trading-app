@@ -28,7 +28,8 @@
 body {
   margin: 0;
   font-family: "Raleway", serif;
-  background-color: var(--black);
+  /* todo put back to black */
+  background-color: var(--timberwolf);
 }
 
 code {
