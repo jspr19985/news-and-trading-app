@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-color: var(--black);
+  /* todo put back to black */
+  background-color: var(--timberwolf);
 }
 
 /* by default the header takes the whole page */

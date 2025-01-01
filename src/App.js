@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import Chart from "./Chart";
-import NewsFeed from "./NewsFeed";
+// import NewsFeed from "./NewsFeed";
 import { getTestData } from "./utils/getTestData";
 import { getFinanceData } from "./utils/getFinanceData";
 import { getNewsData } from "./utils/getNews";
@@ -34,7 +34,8 @@ function App() {
       </header>
       <div className="pageContainer">
         <Chart />
-        <NewsFeed />
+        {/* todo put back when worked out layout */}
+        {/* <NewsFeed /> */}
       </div>
     </div>
   );
